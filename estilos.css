@@ -1,0 +1,2197 @@
+* {
+	padding:0;
+	margin:0;
+	color: #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+ 
+body {
+	margin: 0;
+	background:url(img/ladrillos.jpg);
+	background-size: 100% 1500px; /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+ 
+	font-family:helvetica, arial, sans-serif;
+}
+
+.contenedor_productos{
+	width: 100%;
+	color: #ffffff;
+}
+
+/* inicio
+*****************************************************************/
+#inicio{
+	background: url(img/ciudad_noche.png);
+	width: 100%;
+	height: 700px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+}
+
+#inicio a img{
+	margin-left: 25%;
+	width: 48%;
+}
+
+/* productos
+*****************************************************************/
+#productos{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	padding-top: 80px;
+	line-height: 50px;
+	transition:all 0.3s ease;	
+}
+
+
+.marcas{
+	width: 100%;
+	text-align: center;
+	transition:all 0.9s ease;
+}
+
+.marcas a{
+	margin-left: 70px;
+}
+
+.marcas a img{
+	width:21%; 
+	height:21%;
+}
+
+.marcas a img:hover{
+	width: 23%;
+	height: 23%;
+}
+
+#productos_aguila{
+	padding-top: 100px;
+}
+
+	.aguilas img{
+	width:160px;
+	height:500px;
+	}
+
+	/*EFECTO DE AGUILA*/
+	.contenido_aguila{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.aguila:hover .contenido_aguila{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+	/*AGUILA LIGHT*/
+	.contenido_aguila_light{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.light:hover .contenido_aguila_light{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+	/*AGUILA CERO*/
+	.contenido_aguila_cero{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.cero:hover .contenido_aguila_cero{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+#productos_poker{
+	padding-top: 100px;
+}
+
+	.poker img{
+	width:160px;
+	height:500px;
+	}
+
+	/*EFECTO DE POKER*/
+	.contenido_poker{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.poker:hover .contenido_poker{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+
+	#productos_club{
+	padding-top: 100px;
+	}
+
+	.clubs img{
+	width:160px;
+	height:500px;
+	}
+
+	/*EFECTO DE LA CLUB NEGRA*/
+	.contenido_club_negra{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.negra:hover .contenido_club_negra{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+	
+	/*EFECTO DE LA CLUB DORADA*/
+	.contenido_club_dorada{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.dorada:hover .contenido_club_dorada{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+	
+	/*EFECTO DE LA CLUB ROJA*/
+	.contenido_club_roja{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.roja:hover .contenido_club_roja{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+
+#productos_redds{
+	padding-top: 100px;
+}
+
+	.redds img{
+	width:160px;
+	height:500px;
+	}
+
+	.contenido_redds{
+	width: 50%;
+	float: right;
+	padding: 40px;
+	margin: 80px;
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	line-height: 30px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	}
+
+	.redds:hover .contenido_redds{
+		filter:alpha(opacity=80);
+		opacity: .8;
+	}
+
+/* galeria
+*****************************************************************/
+#galeria{
+	background: url(img/fondo_galeria.png);
+	background-size:100% 100%; 
+	height:1000px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	padding-top: 80px;
+}
+
+#galeria article{
+	padding-top: 100px;
+	text-align: center;
+}
+
+#galeria video{
+	width: 900px;
+	height: 500px;
+	background: #ffffff;
+}
+
+
+/* nosotros
+*****************************************************************/
+#nosotros{
+	background: url(img/fondo_contactenos.png);
+	height: 1050px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	padding-top: 80px;
+	margin: 0;
+	line-height: 23px;
+}
+
+.historia{
+	width: 100%;
+	height: 15%;
+ 	padding: 35px;
+ 	text-align: center;
+ 	text-shadow: 2px 0px 1px rgba(0, 0, 0, 1);
+ 	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	box-sizing: border-box;
+ 	-mox-box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	overflow: hidden;
+}
+
+.mision{
+	width: 50%;
+	height: 20%;
+	padding: 35px;
+	float: left;
+	text-align: center;
+	text-shadow: 2px 0px 1px rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	box-sizing: border-box;
+ 	-mox-box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	overflow: hidden;
+
+}
+
+.vision{
+	width: 50%;
+	height: 20%;
+	padding: 35px;
+	float: right;
+	text-align: center;
+	text-shadow: 2px 0px 1px rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed#A4A4A4 2px;
+ 	box-sizing: border-box;
+ 	-mox-box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	overflow: hidden;
+}
+
+.identidad{
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+	text-shadow: 2px 0px 1px rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, .4);
+ 	border: dashed #A4A4A4 2px;
+ 	box-sizing: border-box;
+ 	-mox-box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+}
+
+	.identidad a img{
+	width: 30%;
+	height: 32%; 
+	opacity:1;
+
+	}
+
+	.icon-download2:before {
+  	content: "\e9c5";
+  	font-size: 200%;
+	}
+
+
+/* contactos
+*****************************************************************/
+#contactos{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 80px;
+	transition:all 0.9s ease;
+}
+
+#contactos article{
+	padding-top: 30px;
+	text-align: center;
+}
+
+#contactos article a img{
+	width:200px;
+	height:200px;
+	opacity: 1;
+}
+
+#contactos article a img:hover{
+	width: 210px;
+	height: 210px;
+	opacity: 0.9;
+}
+
+#contactos article h2{
+	color: #DF0101;
+	padding-top: 40px;
+	text-shadow: 2px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.mapa iframe{
+	width: 100%;
+	height: 480px;
+	padding-top: 40px;
+
+}
+
+.footer{
+	width: 100%;
+	height: 240px;
+	background: url(img/fondo_footer.jpg);
+
+}
+
+.footer h3{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	padding-top: 10px;
+	}
+
+.footer p{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 10px;
+	}
+
+.footer img{
+	margin-left: 43%;
+	width: 12%;
+}
+
+
+/*PARA RESOLUCION HASTA 1920 PX*/
+@media screen and (max-width: 1920px) {
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+
+	#inicio{
+	height: 1000px;
+	padding-top: 90px;
+	}
+
+	#productos{
+	padding-top: 100px;	
+	}
+
+	#productos_aguila{
+	padding-top: 150px;
+	}
+
+	.aguilas img{
+	width:230px;
+	height:780px;
+	}
+
+	.contenido_aguila{
+	margin: 250px;
+	}
+
+	.contenido_aguila_light{
+	margin: 250px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 250px;
+	}
+
+	#productos_poker{
+	padding-top: 150px;
+	}
+
+	.poker img{
+	width:230px;
+	height:780px;
+	}
+
+	.contenido_poker{
+	margin: 250px;
+	}
+
+	#productos_club{
+	padding-top: 150px;
+	}
+
+	.clubs img{
+	width:230px;
+	height:780px;
+	}
+
+	.contenido_club_negra{
+	margin: 250px;
+	}
+
+	.contenido_club_dorada{
+	margin: 250px;
+	}
+
+	.contenido_club_roja{
+	margin: 250px;
+	}
+
+	#productos_redds{
+	padding-top: 150px;
+	}
+
+	.redds img{
+	width:230px;
+	height:780px;
+	}
+
+	.contenido_redds{
+	margin: 250px;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#nosotros{
+		padding-top: 110px;
+	}
+
+	.mision{
+	height: 23%;
+	}
+
+	.vision{
+	height: 23%;
+	}
+
+	#contactos{
+	height: 1000px;
+	padding-top: 100px;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 1440 PX */
+@media screen and (max-width: 1440px) {
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+
+	#productos{
+	padding-top: 90px;	
+	}
+
+	#productos_aguila{
+	padding-top: 140px;
+	}
+
+	.aguilas img{
+	width:210px;
+	height:680px;
+	}
+
+	.contenido_aguila{
+	margin: 200px;
+	}
+
+	.contenido_aguila_light{
+	margin: 200px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 200px;
+	}
+
+	#productos_poker{
+	padding-top: 140px;
+	}
+
+	.poker img{
+	width:210px;
+	height:670px;
+	}
+
+	.contenido_poker{
+	margin: 200px;
+	}
+
+	#productos_club{
+	padding-top: 140px;
+	}
+
+	.clubs img{
+	width:210px;
+	height:680px;
+	}
+
+	.contenido_club_negra{
+	margin: 200px;
+	}
+
+	.contenido_club_dorada{
+	margin: 200px;
+	}
+
+	.contenido_club_roja{
+	margin: 200px;
+	}
+
+	#productos_redds{
+	padding-top: 140px;
+	}
+
+	.redds img{
+	width:210px;
+	height:680px;
+	}
+
+	.contenido_redds{
+	margin: 200px;
+	}
+
+	#galeria{
+	padding-top: 90px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+	}
+
+	.mision{
+	height: 28%;
+	}
+
+	.vision{
+	height: 28%;
+	}
+
+	.footer{
+	width: 100%;
+	height: 200px;
+	}
+
+	.footer h3{
+	font-size: 24px;
+	}
+
+	.footer p{
+	font-size: 21px;
+	}
+
+	.footer img{
+	margin-left: 43%;
+	width: 12%;
+	}
+}
+
+/*PARA RESOLUCION HASTA 1366 PX */
+@media screen and (max-width: 1366px) {
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+
+	#productos{
+	padding-top: 90px;	
+	}
+
+	.marcas a img{
+	width:19%; 
+	height:19%;
+	}
+
+	.marcas a img:hover{
+	width: 20%;
+	height: 20%;
+	}
+
+	#productos_aguila{
+	padding-top: 140px;
+	}
+
+	.aguilas img{
+	width:150px;
+	height:460px;
+	}
+
+	.contenido_aguila{
+	margin: 60px;
+	}
+
+	.contenido_aguila_light{
+	margin: 80px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 80px;
+	}
+
+	#productos_poker{
+	padding-top: 140px;
+	}
+
+	.poker img{
+	width:150px;
+	height:450px;
+	}
+
+	.contenido_poker{
+	margin: 80px;
+	}
+
+	#productos_club{
+	padding-top: 140px;
+	}
+
+	.clubs img{
+	width:150px;
+	height:460px;
+	}
+
+	.contenido_club_negra{
+	margin: 60px;
+	}
+
+	.contenido_club_dorada{
+	margin: 80px;
+	}
+
+	.contenido_club_roja{
+	margin: 80px;
+	}
+
+	#productos_redds{
+	padding-top: 140px;
+	}
+
+	.redds img{
+	width:150px;
+	height:460px;
+	}
+
+	.contenido_redds{
+	margin: 80px;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+	}
+
+
+	.mision{
+	height: 30%;
+	}
+
+	.vision{
+	height: 30%;
+	}
+}
+
+
+
+/*PARA RESOLUCION HASTA 1280 PX */
+@media screen and (max-width: 1280px) {
+	
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+
+	#productos_aguila{
+	padding-top: 125px;
+	}
+
+	.aguilas img{
+	width:140px;
+	height:450px;
+	}
+
+	.contenido_aguila{
+	margin: 60px;
+	}
+
+	.contenido_aguila_light{
+	margin: 80px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 80px;
+	}
+
+	#productos_poker{
+	padding-top: 125px;
+	}
+
+	.poker img{
+	width:140px;
+	height:440px;
+	}
+
+	.contenido_poker{
+	margin: 80px;
+	}
+
+	#productos_club{
+	padding-top: 140px;
+	}
+
+	.clubs img{
+	width:125px;
+	height:435px;
+	}
+
+	.contenido_club_negra{
+	margin: 50px;
+	}
+
+	.contenido_club_dorada{
+	margin: 80px;
+	}
+
+	.contenido_club_roja{
+	margin: 80px;
+	}
+
+	#productos_redds{
+	padding-top: 140px;
+	}
+
+	.redds img{
+	width:130px;
+	height:430px;
+	}
+
+	.contenido_redds{
+	margin: 80px;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+	}
+
+	.mision{
+	height: 30%;
+	}
+
+	.vision{
+	height: 30%;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 1024 PX */
+@media screen and (max-width: 1024px) {
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+	
+	#inicio{
+	background: url(img/ciudad_noche.png);
+	width: 100%;
+	height: 650px;
+	}
+
+	.marcas a img{
+	width:21%; 
+	height:21%;
+	}
+
+	.marcas a img:hover{
+	width: 22%;
+	height: 22%;
+	}
+
+	#productos_aguila{
+	padding-top: 125px;
+	}
+
+	.aguilas img{
+	width:120px;
+	height:380px;
+	}
+
+	.contenido_aguila{
+	width: 70%;
+	margin: 30px;
+	}
+
+	.contenido_aguila_light{
+	width: 60%;
+	margin: 60px;
+	}
+
+	.contenido_aguila_cero{
+	width: 60%;
+	margin: 60px;
+	}
+
+	#productos_poker{
+	padding-top: 125px;
+	}
+
+	.poker img{
+	width:120px;
+	height:370px;
+	}
+
+	.contenido_poker{
+	width: 65%;
+	margin: 30px;
+	}
+
+	#productos_club{
+	padding-top: 125px;
+	}
+
+	.clubs img{
+	width:120px;
+	height:380px;
+	}
+
+	.contenido_club_negra{
+	margin: 30px;
+	width: 70%;
+	}
+
+	.contenido_club_dorada{
+	margin: 40px;
+	width: 65%;
+	}
+
+	.contenido_club_roja{
+	margin: 40px;
+	width: 65%;
+	}
+
+	#productos_redds{
+	padding-top: 125px;
+	}
+
+	.redds img{
+	width:120px;
+	height:380px;
+	}
+
+	.contenido_redds{
+	margin: 80px;
+	width: 65%;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#galeria{
+	background: url(img/fondo_galeria.png);
+	background-size:100% 100%; 
+	height:800px;
+	}
+
+	#galeria video{
+	width: 800px;
+	height: 400px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+	}
+
+	.historia{
+	height: 18%;
+	}
+
+	.mision{
+	height: 38%;
+	}
+
+	.vision{
+	height: 38%;
+	}
+
+	.footer{
+	width: 100%;
+	height: 150px;
+	}
+
+	.footer h3{
+	font-size: 22px;
+	}
+
+	.footer p{
+	font-size: 19px;
+	}
+
+	.footer img{
+	margin-left: 43%;
+	width: 12%;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 960 PX */
+@media screen and (max-width: 960px) {
+	body {
+	background-size: 100% 1800px; /* Nuestra imagen de fondo */
+	}
+
+	.marcas a img{
+	width:23%; 
+	height:23;
+	}
+
+	.marcas a img:hover{
+	width: 24%;
+	height: 24%;
+	}
+
+	#productos_aguila{
+	padding-top: 125px;
+	}
+
+	.aguilas img{
+	width:130px;
+	height:395px;
+	}
+
+	.contenido_aguila{
+	width: 70%;
+	margin: 30px;
+	}
+
+	.contenido_aguila_light{
+	width: 60%;
+	margin: 60px;
+	}
+
+	.contenido_aguila_cero{
+	width: 60%;
+	margin: 60px;
+	}
+
+	#productos_poker{
+	padding-top: 125px;
+	}
+
+	.poker img{
+	width:130px;
+	height:395px;
+	}
+
+	.contenido_poker{
+	width: 65%;
+	margin: 30px;
+	}
+
+	#productos_club{
+	padding-top: 125px;
+	}
+
+	.clubs img{
+	width:130px;
+	height:395px;
+	}
+
+	.contenido_club_negra{
+	margin: 30px;
+	width: 70%;
+	}
+
+	.contenido_club_dorada{
+	margin: 40px;
+	width: 65%;
+	}
+
+	.contenido_club_roja{
+	margin: 40px;
+	width: 65%;
+	}
+
+	#productos_redds{
+	padding-top: 125px;
+	}
+
+	.redds img{
+	width:130px;
+	height:410px;
+	}
+
+	.contenido_redds{
+	margin: 80px;
+	width: 60%;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#galeria video{
+	width: 800px;
+	height: 400px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+	}
+
+	.historia{
+	height: 18%;
+	}
+
+	.mision{
+	height: 40%;
+	}
+
+	.vision{
+	height: 40%;
+	}
+
+	#contactos article a img{
+	width:150px;
+	height:150px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 160px;
+	height: 160px;
+	opacity: 0.9;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 800 PX */
+@media screen and (max-width: 800px) {
+
+	#inicio{
+	background: url(img/ciudad_noche.png);
+	width: 100%;
+	height: 500px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	}
+
+	#inicio a img{
+	margin-top: -20px;
+	width: 60%;
+	}
+
+	#productos{
+	padding-top: 40px;	
+	}
+
+	.marcas a img{
+	width:23%; 
+	height:23;
+	}
+
+	.marcas a img:hover{
+	width: 24%;
+	height: 24%;
+	}
+
+	#productos_aguila{
+	padding-top: 70px;
+	}
+
+	.aguilas img{
+	width:100px;
+	height:320px;
+	}
+
+	.contenido_aguila{
+	font-size: 15px;
+	padding: 20px;
+	width: 74%;
+	line-height: 25px;
+	}
+
+	.contenido_aguila_light{
+	font-size: 15px;
+	padding: 20px;
+	width: 60%;
+	line-height: 25px;
+	}
+
+	.contenido_aguila_cero{
+	font-size: 15px;
+	padding: 20px;
+	width: 60%;
+	line-height: 25px;
+	}
+
+
+	#productos_poker{
+	padding-top: 70px;
+	}
+
+	.poker img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_poker{
+	font-size: 15px;
+	padding: 20px;
+	width: 70%;
+	line-height: 25px;
+	}
+
+	#productos_club{
+	padding-top: 70px;
+	}
+
+	.clubs img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_club_negra{
+	font-size: 15px;
+	padding: 20px;
+	width: 70%;
+	line-height: 25px;
+	}
+
+	.contenido_club_dorada{
+	font-size: 15px;
+	padding: 20px;
+	width: 70%;
+	line-height: 25px;
+	}
+
+	.contenido_club_roja{
+	font-size: 15px;
+	padding: 20px;
+	width: 70%;
+	line-height: 25px;
+	}
+
+	
+	#productos_redds{
+		
+	padding-top: 70px;
+	}
+
+	.redds img{
+	width:108px;
+	height:310px;
+	}
+
+	.contenido_redds{
+	font-size: 15px;
+	padding: 20px;
+	width: 50%;
+	line-height: 25px;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#galeria video{
+	width: 630px;
+	height: 290px;
+	}
+
+	#nosotros{
+		padding-top: 100px;
+		font-size: 15px;
+	}
+
+	.historia{
+	height: 18%;
+	}
+
+	.mision{
+	height: 50%;
+	}
+
+	.vision{
+	height: 50%;
+	}
+
+	#contactos article a img{
+	width:140px;
+	height:140px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 150px;
+	height: 150px;
+	opacity: 0.9;
+	}
+
+	.footer{
+	width: 100%;
+	height: 140px;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 720 PX */
+@media screen and (max-width: 720px) {
+
+	#inicio{
+	background: url(img/ciudad_noche.png);
+	width: 100%;
+	height: 500px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	}
+
+	#inicio a img{
+	margin-top: -20px;
+	width: 60%;
+	}
+
+	#productos{
+	padding-top: 40px;	
+	}
+
+	.marcas a img{
+	width:23%; 
+	height:23;
+	}
+
+	.marcas a img:hover{
+	width: 24%;
+	height: 24%;
+	}
+
+	#productos_aguila{
+	padding-top: 70px;
+	}
+
+	.aguilas img{
+	width:100px;
+	height:320px;
+	}
+
+	.contenido_aguila{
+	font-size: 13px;
+	padding: 10px;
+	width: 70%;
+	line-height: 20px;
+	}
+
+	.contenido_aguila_light{
+	font-size: 13px;
+	padding: 10px;
+	width: 55%;
+	line-height: 20px;
+	}
+
+	.contenido_aguila_cero{
+	font-size: 13px;
+	padding: 10px;
+	width: 55%;
+	line-height: 20px;
+	}
+
+
+	#productos_poker{
+	padding-top: 70px;
+	}
+
+	.poker img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_poker{
+	font-size: 13px;
+	padding: 20px;
+	width: 70%;
+	line-height: 20px;
+	}
+
+	#productos_club{
+	padding-top: 70px;
+	}
+
+	.clubs img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_club_negra{
+	font-size: 13px;
+	padding: 10px;
+	width: 70%;
+	line-height: 20px;
+	}
+
+	.contenido_club_dorada{
+	font-size: 13px;
+	padding: 10px;
+	width: 60%;
+	line-height: 20px;
+	}
+
+	.contenido_club_roja{
+	font-size: 13px;
+	padding: 10px;
+	width: 60%;
+	line-height: 20px;
+	}
+
+	
+	#productos_redds{
+		
+	padding-top: 70px;
+	}
+
+	.redds img{
+	width:108px;
+	height:310px;
+	}
+
+	.contenido_redds{
+	font-size: 13px;
+	padding: 10px;
+	width: 50%;
+	line-height: 20px;
+	}
+
+	#galeria{
+	padding-top: 100px;
+	}
+
+	#galeria video{
+	width: 550px;
+	height: 290px;
+	}
+
+	#nosotros{
+		height: 1050px;
+		padding-top: 100px;
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.historia{
+	height: 13%;
+	padding: 10px;
+	}
+
+	.mision{
+	height: 35%;
+	padding: 10px;
+	}
+
+	.vision{
+	height: 35%;
+	padding: 10px;
+	}
+
+	#contactos article a img{
+	width:120px;
+	height:120px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 130px;
+	height: 130px;
+	opacity: 0.9;
+	}
+
+	.footer{
+	width: 100%;
+	height: 140px;
+	}
+}
+
+/*PARA RESOLUCION HASTA 640 PX */
+@media screen and (max-width: 640px) {
+
+	#inicio{
+	background: url(img/ciudad_noche.png);
+	width: 100%;
+	height: 700px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	}
+
+	#inicio a img{
+	margin-left: -10px;
+	margin-top: -20px;
+	width: 100%;
+	}
+
+	#productos{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 80px;	
+	}
+
+	.marcas a img{
+	width:29%; 
+	height:29%;
+	}
+
+	.marcas a img:hover{
+	width: 30%;
+	height: 30%;
+	}
+
+	#productos_aguila{
+	padding-top: 70px;
+	}
+
+	.aguilas img{
+	width:100px;
+	height:320px;
+	}
+
+	.contenido_aguila{
+	margin: 0px;
+	font-size: 13px;
+	padding: 10px;
+	width: 60%;
+	line-height: 20px;
+	}
+
+	.contenido_aguila_light{
+		margin: 0px;
+	font-size: 13px;
+	padding: 10px;
+	width: 55%;
+	line-height: 20px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 0px;	
+	font-size: 13px;
+	padding: 10px;
+	width: 55%;
+	line-height: 20px;
+	}
+
+
+	#productos_poker{
+	padding-top: 70px;
+	}
+
+	.poker img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_poker{
+	margin: 0px;
+	font-size: 13px;
+	padding: 20px;
+	width: 70%;
+	line-height: 20px;
+	}
+
+	#productos_club{
+	padding-top: 70px;
+	}
+
+	.clubs img{
+	width:100px;
+	height:310px;
+	}
+
+	.contenido_club_negra{
+	margin: 0px;
+	font-size: 13px;
+	padding: 10px;
+	width: 70%;
+	line-height: 20px;
+	}
+
+	.contenido_club_dorada{
+	margin: 0px;	
+	font-size: 13px;
+	padding: 10px;
+	width: 60%;
+	line-height: 20px;
+	}
+
+	.contenido_club_roja{
+	margin: 0px;
+	font-size: 13px;
+	padding: 10px;
+	width: 60%;
+	line-height: 20px;
+	}
+
+	
+	#productos_redds{
+		
+	padding-top: 70px;
+	}
+
+	.redds img{
+	width:108px;
+	height:310px;
+	}
+
+	.contenido_redds{
+	margin: 0px;
+	font-size: 13px;
+	padding: 10px;
+	width: 50%;
+	line-height: 20px;
+	}
+
+	#galeria{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 100px;
+	}
+
+	#galeria video{
+	width: 500px;
+	height: 290px;
+	}
+
+	#nosotros{
+		height: 1050px;
+		padding-left: 20px;
+		padding-right: 50px;
+		padding-top: 100px;
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.historia{
+	height: 13%;
+	padding: 10px;
+	}
+
+	.mision{
+	height: 35%;
+	padding: 10px;
+	}
+
+	.vision{
+	height: 35%;
+	padding: 10px;
+	}
+
+	#contactos{
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+
+	#contactos article a img{
+	width:110px;
+	height:110px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 120px;
+	height: 120px;
+	opacity: 0.9;
+	}
+
+	.footer{
+	width: 100%;
+	height: 140px;
+	}
+}
+
+/*PARA RESOLUCION HASTA 480 PX */
+@media screen and (max-width: 480px) {
+
+	#inicio{
+	width: 100%;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	}
+
+	#inicio a img{
+	margin-top: -20px;
+	width: 60%;
+	}
+
+	#productos{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	line-height: 50px;
+	font-size: 9px;	
+	}
+
+	.marcas a{
+	margin-left: 20px;
+	}
+
+	.marcas a img{
+	width:21%; 
+	height:21%;
+	}
+
+	.marcas a img:hover{
+	width: 20%;
+	height: 20%;
+	}
+
+	#productos_aguila{
+	padding-top: 70px;
+	}
+
+	.aguilas img{
+	width:50px;
+	height:160px;
+	}
+
+	.contenido_aguila{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	.contenido_aguila_light{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+
+	#productos_poker{
+	padding-top: 70px;
+	}
+
+	.poker img{
+	width:50px;
+	height:160px;
+	}
+
+	.contenido_poker{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	#productos_club{
+	padding-top: 70px;
+	}
+
+	.clubs img{
+	width:50px;
+	height:160px;
+	}
+
+	.contenido_club_negra{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	.contenido_club_dorada{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	.contenido_club_roja{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	
+	#productos_redds{
+	margin: 0px;
+	padding-top: 70px;
+	}
+
+	.redds img{
+	width:50px;
+	height:160px;
+	}
+
+	.contenido_redds{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 10px;
+	padding: 5px;
+	width: 75%;
+	line-height: 12px;
+	}
+
+	#galeria{
+	font-size: 9px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 400px;
+	}
+
+	#galeria article{
+	padding-top: 0px;
+	}
+
+	#galeria video{
+	width: 330px;
+	height: 170px;
+	}
+
+	#nosotros{
+	font-size: 9px;
+	height: 650px;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-top: 80px;
+	}
+
+	.historia{
+	height: 16%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	.mision{
+	height: 45%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	.vision{
+	height: 45%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	#contactos{
+	height: 650px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 80px;
+	font-size: 9px;
+	}
+
+	#contactos article a img{
+	width:90px;
+	height:90px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 100px;
+	height: 100px;
+	opacity: 0.9;
+	}
+
+	.mapa iframe{
+	width: 100%;
+	height: 300px;
+	}
+	.footer{
+	width: 100%;
+	height: 120px;
+	}
+
+	.footer h3{
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+	}
+
+	.footer p{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	}
+
+	.footer img{
+	margin-left: 43%;
+	width: 15%;
+	}
+}
+
+
+/*PARA RESOLUCION HASTA 320 PX */
+@media screen and (max-width: 320px) {
+
+	#inicio{
+	width: 100%;
+	height: 500px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 40px;
+	}
+
+	#inicio a img{
+		margin-left: -8px;
+	margin-top: -20px;
+	width: 90%;
+	}
+
+	#productos{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	line-height: 50px;
+	font-size: 9px;	
+	}
+
+	.marcas a{
+	margin-left: 10px;
+	}
+
+	.marcas a img{
+	width:38%; 
+	height:38%;
+	}
+
+	.marcas a img:hover{
+	width: 40%;
+	height: 40%;
+	}
+
+	#productos_aguila{
+	padding-top: 70px;
+	}
+
+	.aguilas img{
+	width:80px;
+	height:300px;
+	}
+
+	.contenido_aguila{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 30px;
+	font-size: 8px;
+	padding: 5px;
+	width: 55%;
+	line-height: 12px;
+	}
+
+	.contenido_aguila_light{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 80px;
+	font-size: 8px;
+	padding: 5px;
+	width: 45%;
+	line-height: 12px;
+	}
+
+	.contenido_aguila_cero{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 80px;
+	font-size: 8px;
+	padding: 5px;
+	width: 45%;
+	line-height: 12px;
+	}
+
+
+	#productos_poker{
+	padding-top: 70px;
+	}
+
+	.poker img{
+	width:90px;
+	height:300px;
+	}
+
+	.contenido_poker{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 60px;
+	font-size: 8px;
+	padding: 5px;
+	width: 45%;
+	line-height: 12px;
+	}
+
+	#productos_club{
+	padding-top: 70px;
+	}
+
+	.clubs img{
+	width:80px;
+	height:300px;
+	}
+
+	.contenido_club_negra{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 50px;
+	font-size: 8px;
+	padding: 5px;
+	width: 50%;
+	line-height: 12px;
+	}
+
+	.contenido_club_dorada{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 50px;
+	font-size: 8px;
+	padding: 5px;
+	width: 50%;
+	line-height: 12px;
+	}
+
+	.contenido_club_roja{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 50px;
+	font-size: 8px;
+	padding: 5px;
+	width: 50%;
+	line-height: 12px;
+	}
+
+	
+	#productos_redds{
+	margin: 0px;
+	padding-top: 70px;
+	}
+
+	.redds img{
+	width:80px;
+	height:300px;
+	}
+
+	.contenido_redds{
+	margin: 0px;
+	margin-right: 30px;
+	margin-top: 80px;
+	font-size: 10px;
+	padding: 5px;
+	width: 50%;
+	line-height: 12px;
+	}
+
+	#galeria{
+	font-size: 9px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 480px;
+	}
+
+	#galeria article{
+	padding-top: 90px;
+	}
+
+	#galeria video{
+	width: 220px;
+	height: 120px;
+	}
+
+	#nosotros{
+	font-size: 9px;
+	height: 880px;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-top: 80px;
+	}
+
+	.historia{
+	height: 16%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	.mision{
+	height: 60%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	.vision{
+	height: 60%;
+	padding: 10px;
+	line-height: 15px;
+	}
+
+	.identidad{
+	width: 100%;
+	}
+
+	#contactos{
+	height: 500px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 80px;
+	font-size: 9px;
+	}
+
+	#contactos article a img{
+	width:50px;
+	height:50px;
+	opacity: 1;
+	}
+
+	#contactos article a img:hover{
+	width: 60px;
+	height: 60px;
+	opacity: 0.9;
+	}
+
+	.mapa iframe{
+	width: 100%;
+	height: 200px;
+	}
+	.footer{
+	width: 100%;
+	height: 120px;
+	}
+
+	.footer h3{
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+	}
+
+	.footer p{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	}
+
+	.footer img{
+	margin-left: 43%;
+	width: 15%;
+	}
+}
